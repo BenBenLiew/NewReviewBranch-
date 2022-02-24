@@ -1,6 +1,7 @@
 package restaurantbooking;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -19,7 +20,7 @@ public class NewTest {
       driver.manage().window().maximize();
 
       //navigate the browser to this url
-      driver.get("http://localhost:8090/restaurant-booking/RestaurantnameServlet/dashboard");
+      driver.get("http://localhost:8090/NewReviewBranch-/RestaurantnameServlet/dashboard");
 
       //browser look for link with text value "add new comment?"
       driver.findElement(By.linkText("Add New comment")).click();

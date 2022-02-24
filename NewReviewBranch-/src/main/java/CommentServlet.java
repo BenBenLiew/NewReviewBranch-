@@ -78,7 +78,7 @@ public class CommentServlet extends HttpServlet {
 			if (i > 0) {
 				PrintWriter writer = response.getWriter();
 				writer.println("<h1>" + "You have successfully Comment!" + "</h1>");
-				writer.println("<h1>"+"<a href=\"http://localhost:8090/restaurant-booking/RestaurantnameServlet/dashboard\">  Click here to go to dashboard </a>"+"</h1>");
+				writer.println("<h1>"+"<a href=\"http://localhost:8090/NewReviewBranch-/RestaurantnameServlet/dashboard\">  Click here to go to dashboard </a>"+"</h1>");
 			
 				writer.close();
 			}
